@@ -8,13 +8,14 @@ import 'package:contas_matematicas/contas/equacoes1e2.dart';
 import 'package:contas_matematicas/contas/fatorial.dart';
 import 'package:contas_matematicas/contas/figurasplanas.dart';
 import 'package:contas_matematicas/contas/figurassolidas.dart';
-import 'package:contas_matematicas/contas/juros.dart';
+import 'package:contas_matematicas/juros/juros.dart';
 import 'package:contas_matematicas/contas/analise%20combinatoria/permutacao.dart';
 import 'package:contas_matematicas/contas/triangulos.dart';
 import 'package:flutter/material.dart';
 
 import 'boasvindas.dart';
 import 'contas_basicas/contas_basicas.dart';
+import 'juros/widget_funcao.dart';
 
 class PaginaInicial extends StatelessWidget {
   @override

@@ -1,5 +1,5 @@
 
-import 'package:contas_matematicas/contas/juros.dart';
+import 'package:contas_matematicas/juros/juros.dart';
 import 'package:contas_matematicas/rotas.dart';
 import 'package:flutter/material.dart';
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         
         primarySwatch: Colors.green,
       ),
-      initialRoute: Rotas.Contas_Basicas,
+      initialRoute: Rotas.Juros,
       routes: {
       Rotas.Pagina_Inicial:(context)=>PaginaInicial(),
       Rotas.Contas_Basicas:(context)=>ContasBasicas(),
